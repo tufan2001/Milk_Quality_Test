@@ -148,10 +148,10 @@ print("\nModel Accuracy:", round(accuracy * 100, 2), "%")
 new_sample = pd.DataFrame({
     'pH': [float(input("Enter pH value (0-14): "))],
     'Temperature': [float(input("Enter temperature value (°C): "))],
-    'Taste': [float(input("Enter taste value (1 = Good, 0 = Bad) :"))],
-    'Odor': [float(input("Enter odor value (1 = Bad smell, 0 = Good): "))],
-    'Fat': [float(input("Enter fat value(1 = High fat, 0 = Low fat): "))],
-    'Turbidity': [float(input("Enter turbidity value(1 = Cloudy, 0 = Clear): "))]
+    'Taste': [int(input("Enter taste value (1 = Good, 0 = Bad) :"))],
+    'Odor': [int(input("Enter odor value (1 = Bad smell, 0 = Good): "))],
+    'Fat': [int(input("Enter fat value(1 = High fat, 0 = Low fat): "))],
+    'Turbidity': [int(input("Enter turbidity value(1 = Cloudy, 0 = Clear): "))]
 })
 
 prediction = model.predict(new_sample)
@@ -165,3 +165,5 @@ elif prediction[0] == 1:
     print("Your milk is Medium Quality")
 elif prediction[0] == 2:
     print("Your milk is High Quality")
+
+
