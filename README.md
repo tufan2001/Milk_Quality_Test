@@ -23,10 +23,10 @@ This project analyses milk quality and predicts milk grades using Machine Learni
 7. Result
 
 
-Author
-Tufan Mondol
-BPP Batch 13
-Food Engineering
-Dhaka University og Engikeering & Technology, Gazipur
-Email: tufanm2001@gmail.com
-Mobile:+8801580701890
+# Author
+- Tufan Mondol
+- BPP Batch 13
+- Food Engineering
+- Dhaka University og Engikeering & Technology, Gazipur
+- Email: tufanm2001@gmail.com
+- Mobile:+8801580701890
