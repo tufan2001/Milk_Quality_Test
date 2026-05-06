@@ -1,0 +1,5 @@
+Python 3.x 
+VS Code 
+Python extension for VS Code
+pip packages pandas, matplotlib, seaborn, scikit-learn, numpy, jupyterlab
+GitHub account
