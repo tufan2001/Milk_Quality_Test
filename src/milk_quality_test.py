@@ -160,10 +160,10 @@ print("\nPredicted Milk Grade:", prediction[0])
 
 # Convert number to text
 if prediction[0] == 0:
-    print("Your milk is Low Quality")
+    print("\033[1;31mYour milk is Low Quality\033[0m")
 elif prediction[0] == 1:
-    print("Your milk is Medium Quality")
+    print("\033[1;33mYour milk is Medium Quality\033[0m")
 elif prediction[0] == 2:
-    print("Your milk is High Quality")
+    print("\033[1;32mYour milk is High Quality\033[0m")
 
 
