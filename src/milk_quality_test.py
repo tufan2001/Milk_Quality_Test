@@ -167,3 +167,5 @@ elif prediction[0] == 2:
     print("\033[1;32mYour milk is High Quality\033[0m")
 
 
+print("Thank you for using the Milk Quality Test Model." \
+"\nHave a Good Day!")
