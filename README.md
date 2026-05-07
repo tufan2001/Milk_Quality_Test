@@ -22,7 +22,7 @@ This project analyses milk quality and predicts milk grades using Machine Learni
 6. Enter predicted value
 7. Result
 
-# Inout parameter
+# Input parameter
 - pH --- Acidity level of milk
 - Temperature ---	Milk temperature
 - Taste	--- 1 = Good, 0 = Bad
@@ -31,7 +31,7 @@ This project analyses milk quality and predicts milk grades using Machine Learni
 - Turbidity	--- 1 = Cloudy milk, 0 = clear
 - Grade	Milk quality --- grade
 
-# Grade	Milk quality
+# Output Grade Milk quality
 - 0 = Low Quality
 - 1 = Medium Quality
 - 2 = High Quality
