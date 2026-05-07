@@ -23,13 +23,13 @@ This project analyses milk quality and predicts milk grades using Machine Learni
 7. Result
 
 # Inout parameter
-- pH -	Acidity level of milk
-- Temperature -	Milk temperature
-- Taste	- 1 = Good, 0 = Bad
-- Odor	- 1 = Bad smell present, 0 = Good
-- Fat	- 1 = High fat, 0 = low fat
-- Turbidity	- 1 = Cloudy milk, 0 = clear
-- Grade	Milk quality - grade
+- pH --- Acidity level of milk
+- Temperature ---	Milk temperature
+- Taste	--- 1 = Good, 0 = Bad
+- Odor	--- 1 = Bad smell present, 0 = Good
+- Fat	--- 1 = High fat, 0 = low fat
+- Turbidity	--- 1 = Cloudy milk, 0 = clear
+- Grade	Milk quality --- grade
 
 # Grade	Milk quality
 - 0 = Low Quality
